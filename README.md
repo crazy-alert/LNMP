@@ -1,16 +1,15 @@
-# WordPress
-LAMP &amp; LEMP installation scripts and some other stuff for WordPress
+# LEMP
+LAMP &amp; LEMP installation scripts
 
 Introducing you scripts for automated LAMP & LEMP stacks installation with WordPress and HTTPS.
 
-* wp_lamp.sh - script to install Linux, Apache, MySQL, PHP and WordPress.
-* wp_lamp_https.sh - script to install LAMP stack with WordPress + configures HTTPS for your website.
-* wp_lemp.sh - script to install Linux, Nginx, MySQL, php-fpm and WordPress.
+* wp_lamp.sh - script to install Linux, Apache, MySQL, PHP
+* wp_lamp_https.sh - script to install LAMP stack + configures HTTPS for your website.
 
 
 All scripts helping to install & configure dependencies, software, website. They providing opmtimized configurations, adding swap for your linux system depending of your actual RAM memory. During installation process you need only to answer simple questions like "Yes", "No", and enter username & password where it is required. Except stack installation and configuration, it will help you with latest WordPress version install and config. 
 
-You can choose English or Russian langauge of WordPress installation, also additionaly it will install you 4 very useful plugins:
+You can choose English or Russian langauge of installation, also additionaly it will install you 4 very useful plugins:
  - Google XML Sitemap Generator
  - AddToAny share buttons
  - Easy Watermark
@@ -27,6 +26,4 @@ $ chmod +x wp_lamp.sh
 $ ./wp_lamp.sh
 </pre>
 
-All scripts were tested in DigitalOcean and on some small production projects.
-If you will have any questions regarding this scripts or maybe want to improve something - just ping me on email info[at]sm0k3.net
 
